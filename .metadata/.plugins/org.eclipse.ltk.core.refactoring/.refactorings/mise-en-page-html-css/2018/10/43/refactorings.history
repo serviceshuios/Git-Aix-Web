@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;mise-en-page-html-css/WebContent/index.html&apos; to &apos;accueil.html&apos;" description="Rename resource &apos;index.html&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/index.html" name="accueil.html" stamp="1540477119150" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;mise-en-page-html-css/WebContent/audio/Scream+1.mp3&apos; to &apos;mon-audio.mp3&apos;" description="Rename resource &apos;Scream+1.mp3&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/audio/Scream+1.mp3" name="mon-audio.mp3" stamp="1540548191890" updateReferences="true"/>
+</session>

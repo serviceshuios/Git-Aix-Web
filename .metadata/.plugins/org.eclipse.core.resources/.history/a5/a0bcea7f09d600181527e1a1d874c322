@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>BASES HTML CSS</title>
+        <link rel="stylesheet" href="css/style.css"/>
+	</head>
+	<body>
+		<h1>Un titre de niveau 1</h1>
+		<p id="monId">Un paragraphe</p>
+		<p class="maClasse">Un deuxième paragraphe</p>
+		<p> Un troisième paragraphe</p>
+		<a href="http://www.google.fr">un lien vers google</a>
+		<h2>Elements de type block et inline</h2>
+		<p class="bord"> Un élement de type block</p>
+		<p> Un <strong> autre </strong> paragraphe</p>
+		<h2>Div et Span</h2>
+		<div>
+			<p>premier paragraphe dans la div</p>
+			<p>deuxième paragraphe dans la div</p>
+		</div>
+	</body>
+</html>

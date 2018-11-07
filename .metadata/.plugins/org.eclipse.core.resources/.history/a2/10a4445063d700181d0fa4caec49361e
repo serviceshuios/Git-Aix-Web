@@ -1,0 +1,6 @@
+// getElementById
+var titre = document.getElementById("gros_titre");
+alert(titre.innerHTML);
+
+// getElementsByTagName
+var paragraphes = document.getElementsByTagName("p");

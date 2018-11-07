@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>AFFICHAGE ET POSITIONNEMENT</title>
+<link rel="stylesheet" href="css/style.css" />
+
+</head>
+<body>
+	<div>
+		<h2>Display</h2>
+		<p class="para1">Un premier paragraphe</p>
+		<p class="para2">Un deuxième paragraphe</p>
+	</div>
+	<script src="js/script.js"></script>
+</body>
+</html>

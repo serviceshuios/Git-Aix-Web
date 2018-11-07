@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>BASES HTML</title>
+	</head>
+	<body>
+		<!-- je suis un commentaire -->
+		<h1>je suis un titre niveau 1</h1>
+		<h2>je suis un sous titre</h2>
+		<h3>je suis un sous sous titre</h3>
+		<hr/>
+		<p> je suis un paragraphe</p>
+		<h4>je suis un autre titre</h4>
+		
+		<!-- strong em et mark -->
+		<h2>Le <mark>langage HTML</mark></h2>
+		<p>
+			HTML signifie <strong>Hypertext markup language</strong>. Ce langage est utilisé pour 
+			structurer et <em>marquer sémantiquement un contenu</em>
+		</p>
+		<!-- liste non ordonnée -->
+		<ul>
+			<li>Pomme</li>
+			<li>Vélo</li>
+			<li>Guitare</li>
+		</ul>
+	</body>
+	
+</html>

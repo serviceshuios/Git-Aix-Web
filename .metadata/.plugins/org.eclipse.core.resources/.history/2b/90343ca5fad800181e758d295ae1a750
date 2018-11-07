@@ -1,0 +1,9 @@
+@charset "utf-8";
+body {
+	margin:0px;
+	padding:0px;
+}
+.div1, .div2, .div3{
+	display: inline-block;
+	width: 30%;
+}

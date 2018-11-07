@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>RESPONSIVE DESIGN</title>
+		
+		<link rel="stylesheet" href="css/style.css"/>
+		
+	</head>
+	<body>
+		<h1>responsive design</h1>
+		<div class="div1">
+			<p>je suis un paragraphe appartenant au premier div</p>
+		</div>
+		<div class="div2">
+			<p>je suis un paragraphe appartenant au deuxième div</p>
+		</div>
+		<div class="div3">
+			<p>je suis un paragraphe appartenant au troisième div</p>
+		</div>
+		<div class="footer">
+			<p>je suis un pied de page</p>
+		</div>
+		<script src="js/script.js"></script>
+	</body>
+</html>

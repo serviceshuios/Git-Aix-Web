@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>MISE EN PAGE</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+	<div id="entete">EnTete</div>
+	<div id="main">
+		<div id="menu">
+			<ul>
+				<li><a href="accueil.html">Acceuil</a></li>
+				<li><a href="famille.html">Famille</a></li>
+				<li><a href="loisirs.html">Loisirs</a></li>
+				<li><a href="vacances.html">Vacances</a></li>
+			</ul>
+		</div>
+		<div id="contenu">In his tractibus navigerum nusquam visitur
+			flumen sed in locis plurimis aquae suapte natura calentes emergunt ad
+			usus aptae multiplicium medelarum. verum has quoque regiones pari
+			sorte Pompeius Iudaeis domitis et Hierosolymis captis in provinciae
+			speciem delata iuris dictione formavit. Et quoniam inedia gravi
+			adflictabantur, locum petivere Paleas nomine, vergentem in mare,
+			valido muro firmatum, ubi conduntur nunc usque commeatus distribui
+			militibus omne latus Isauriae defendentibus adsueti. circumstetere
+			igitur hoc munimentum per triduum et trinoctium et cum neque
+			adclivitas ipsa sine discrimine adiri letali, nec cuniculis quicquam
+			geri posset, nec procederet ullum obsidionale commentum, maesti
+			excedunt postrema vi subigente maiora viribus adgressuri. Quo cognito
+			Constantius ultra mortalem modum exarsit ac nequo casu idem Gallus de
+			futuris incertus agitare quaedam conducentia saluti suae per itinera
+			conaretur, remoti sunt omnes de industria milites agentes in
+			civitatibus perviis.</div>
+	</div>
+	<div id="footer">Pied de page</div>
+	<script src="js/script.js"></script>
+</body>
+</html>

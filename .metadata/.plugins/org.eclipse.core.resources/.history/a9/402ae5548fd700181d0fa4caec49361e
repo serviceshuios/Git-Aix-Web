@@ -1,0 +1,2 @@
+//on crée un element de type p
+var nouveauPara = document.createElement("p");

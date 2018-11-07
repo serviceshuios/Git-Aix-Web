@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>RESPONSIVE DESIGN</title>
+		<link rel="stylesheet" href="css/style.css"/>
+		
+	</head>
+	<body>
+		Bonjour html 5
+		<script src="js/script.js"></script>
+	</body>
+</html>

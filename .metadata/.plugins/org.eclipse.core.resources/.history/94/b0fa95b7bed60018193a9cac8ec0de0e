@@ -1,0 +1,17 @@
+/**
+ * LES FONCTIONS
+ */
+
+function affiche()
+{
+	alert("BONJOUR");
+}
+
+function multiplication(x,y)
+{
+	affiche();
+	return x*y;
+}
+
+var res = multiplication(5,4);
+alert("resultat = "+res);

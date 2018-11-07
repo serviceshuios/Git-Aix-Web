@@ -1,0 +1,13 @@
+/**
+ * Boucle while
+ */
+
+var final = parseInt(prompt("Saisir le nombre de fois ou la boucle vas être executée"));
+
+var x=0;
+
+while(x < final){
+	alert("x contient la valeur :"+x);
+	//incrementation
+	x+=1;
+}

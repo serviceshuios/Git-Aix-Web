@@ -1,0 +1,21 @@
+/**
+ * modifier du contenu HTML
+ */
+// Modification d'un contenu de type texte : innerHTML
+//1- trouver l'élement à modifier
+var titre = document.getElementById("gros_titre");
+//2- appliquer la modification
+titre.innerHTML="TITRE MODIFIE";
+
+// Modifier l'attribut d'un element : .nomAttribut=""
+
+//1- trouver l'élement à modifier
+var lien = document.querySelector("p a");
+//2- appliquer la modification
+lien.innerHTML="lien vers wikipedia";
+lien.href="http://wikipedia.org";
+
+
+// Modifier le style d'un élement
+document.querySelector("h2").className("modif");
+titre2.className='modif';

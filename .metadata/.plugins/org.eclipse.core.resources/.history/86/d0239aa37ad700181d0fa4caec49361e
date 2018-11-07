@@ -1,0 +1,7 @@
+/**
+ * modifier du contenu HTML
+ */
+//1- trouver l'élement à modifier
+var titre = document.getElementById("gros_titre");
+//2- appliquer la modification
+titre.innerHTML="TITRE MODIFIE";

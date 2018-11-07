@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>STRUCTURE</title>
+		<link rel="stylesheet" href="css/style.css"/>
+		
+	</head>
+	<body>
+		<p>cliquez-moi</p>
+		<p>passer sur ce texte</p>
+		<script src="js/script.js"></script>
+	</body>
+</html>

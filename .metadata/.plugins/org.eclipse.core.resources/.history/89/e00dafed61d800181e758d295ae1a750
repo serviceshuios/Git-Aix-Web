@@ -1,0 +1,7 @@
+#entete, #menu, #contenu, #footer {
+	padding: 1px;
+}
+
+#entete {
+	background-color: #FF9900;
+}

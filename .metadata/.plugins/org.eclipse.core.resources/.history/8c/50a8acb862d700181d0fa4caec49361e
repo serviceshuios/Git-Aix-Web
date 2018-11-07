@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>PARCOURS DOM</title>
+		<link rel="stylesheet" href="css/style.css"/>
+		
+	</head>
+	<body>
+		<h1 id="gros_titre">LE DOM</h1>
+		<p>du texte et <a href="http://www.google.com">un lien</a></p>
+		<script src="js/script.js"></script>
+	</body>
+</html>

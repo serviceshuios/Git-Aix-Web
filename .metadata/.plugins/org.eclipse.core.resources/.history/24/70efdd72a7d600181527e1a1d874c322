@@ -1,0 +1,15 @@
+/**
+ * CONDITIONS
+ */
+
+var age = parseInt(prompt("Veuillez saisir votre age:"));
+
+if(age < 18){
+	alert("MINEUR");
+}
+else if (18 <= age  < 77){
+	alert("MAJEUR");
+}
+else if (age >= 77 ){
+	alert("SENIOR");
+}

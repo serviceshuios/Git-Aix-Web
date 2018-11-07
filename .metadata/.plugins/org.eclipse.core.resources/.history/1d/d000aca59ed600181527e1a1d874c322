@@ -1,0 +1,4 @@
+/**
+ * Addition de deux nombres
+ */
+var nombre1 = prompt("Entrer le premier nombre");

@@ -1,0 +1,2 @@
+// getElementById
+var titre = document.getElementById("gros_titre");

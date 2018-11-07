@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>PARCOURS DOM</title>
+		<link rel="stylesheet" href="css/style.css"/>
+		
+	</head>
+	<body>
+		<h1 id="gros_titre">LE DOM</h1>
+		<p>du texte et <a href="http://www.google.com">un lien</a></p>
+		<p>Un deuxième paragraphe</p>
+		<p class="maClasse">Un troisième paragraphe</p>
+		<h2 class="maClasse">Titre de niveau 2</h2>
+		<script src="js/script.js"></script>
+	</body>
+</html>

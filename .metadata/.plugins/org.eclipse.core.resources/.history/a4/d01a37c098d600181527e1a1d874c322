@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>STRUCTURE</title>
+		<link rel="stylesheet" href="css/style.css"/>
+		
+	</head>
+	<body>
+		Bonjour html 5
+		<script src="js/script.js"/>
+	</body>
+</html>

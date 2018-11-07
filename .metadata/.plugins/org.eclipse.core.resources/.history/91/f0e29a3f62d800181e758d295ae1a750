@@ -1,0 +1,13 @@
+#entete, #menu, #contenu, #footer {
+	padding: 1px;
+}
+
+#entete {
+	background-color: #FF9900;
+	text-align: center;
+}
+
+#main {
+	max-width: 960px;
+	margin:auto;
+}

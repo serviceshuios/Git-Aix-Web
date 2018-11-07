@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>BASES HTML</title>
+	</head>
+	<body>
+		<!-- je suis un commentaire -->
+		<h1>je suis un titre niveau 1</h1>
+		<h2>je suis un sous titre</h2>
+		<h3>je suis un sous sous titre</h3>
+	</body>
+</html>

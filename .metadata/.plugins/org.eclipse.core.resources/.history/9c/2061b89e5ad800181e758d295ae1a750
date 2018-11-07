@@ -1,0 +1,26 @@
+@charset "utf-8";
+div {
+	background-color: #89B;
+	border-radius: 15px;
+}
+
+.para1, .para2{
+	display: inline;
+}
+.para3 {
+	display: inline-block;
+	border: 1px solid black;
+	width: 55%;
+}
+
+.para4 {
+	display: inline-block;
+	border: 1px solid black;
+	width: 43%;
+}
+h1 {
+	margin: auto;
+    width: 50%;
+	position: fixed;
+	background-color: yellow;
+}

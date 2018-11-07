@@ -1,0 +1,23 @@
+/**
+ * Boucle while
+ */
+
+var final = parseInt(prompt("Saisir le nombre de fois ou la boucle vas être executée"));
+
+var x=0;
+//Tant que (condition d'arrêt
+while(x < final){
+	//traitement dans la boucle (affichage)
+	alert("x contient la valeur :"+x);
+	//incrementation
+	x+=1;
+}
+
+//exemple do while
+
+var a = 13;
+do {
+	alert("a contient la valeur :"+a);
+	a+=1;
+}
+while(a <10);

@@ -1,0 +1,13 @@
+/**
+ * Addition de deux nombres
+ */
+var nombre1 = prompt("Entrer le premier nombre");
+var nombre2 = prompt("Entrer le deuxième nombre");
+var resultat = parseInt(nombre1) + parseInt(nombre2);
+var soustraction = parseInt(nombre1) - parseInt(nombre2);
+var mult = parseInt(nombre1) * parseInt(nombre2);
+var div = parseInt(nombre1) / parseInt(nombre2);
+alert("Addition ="+resultat+
+	  "\nSoustraction ="+soustraction+
+	  "\nMultiplication  ="+mult+
+	  "\nDivision  ="+div);

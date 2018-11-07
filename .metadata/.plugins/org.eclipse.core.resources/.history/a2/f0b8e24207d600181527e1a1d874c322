@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>BASES HTML CSS</title>
+        <link rel="stylesheet" href="css/style.css"/>
+	</head>
+	<body>
+		<h1>Un titre de niveau 1</h1>
+		<p id="monId">Un paragraphe</p>
+		<p class="maClasse">Un deuxième paragraphe</p>
+		<p> Un troisième paragraphe</p>
+		<a href="http://www.google.fr">un lien vers google</a>
+	</body>
+</html>

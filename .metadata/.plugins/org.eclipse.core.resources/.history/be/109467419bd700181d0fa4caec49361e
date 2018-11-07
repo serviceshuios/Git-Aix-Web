@@ -1,0 +1,7 @@
+/**
+ * Screen
+ */
+
+var hauteur = screen.height;
+var hauteurDispo = screen.availHeight;
+var resolution = screen.pixelDepth;

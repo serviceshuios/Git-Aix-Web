@@ -1,0 +1,13 @@
+/**
+ * Types et variables en Javascript
+ */
+var texte="Bonjour";
+var x=4;
+var b= true;
+var c;
+
+alert("variable texte : "+ typeof(texte) +
+	  "variable x : "+ typeof(x) +
+	  "variable b : "+ typeof(b) +
+	  "variable c : "+ typeof(c)
+);

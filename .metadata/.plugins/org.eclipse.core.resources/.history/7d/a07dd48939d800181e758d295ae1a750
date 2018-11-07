@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>STRUCTURE</title>
+		<link rel="stylesheet" href="css/style.css"/>
+		
+	</head>
+	<body>
+		<table>
+			<tr>
+				<th>Nom</th>
+				<th>Prenom</th>
+				<th>Age</th>
+			</tr>
+			<tr>
+				<td>ZEC</td>
+				<td>UNION</td>
+				<td>18</td>
+			</tr>
+			
+		</table>
+		<script src="js/script.js"></script>
+	</body>
+</html>

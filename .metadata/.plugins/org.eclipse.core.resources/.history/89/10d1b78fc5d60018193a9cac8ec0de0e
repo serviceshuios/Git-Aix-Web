@@ -1,0 +1,8 @@
+/**
+ * CREATION DES OBJETS
+ */
+
+var personne1 = new Object();
+	personne1.nom = "toto";
+	personne1.prenom = "tata";
+	personne1.age = 25;

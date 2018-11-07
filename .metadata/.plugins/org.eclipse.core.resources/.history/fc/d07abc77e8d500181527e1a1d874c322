@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>PAGE 1</title>
+</head>
+<body>
+<p>je suis la page 1</p>
+<a hreh="index.html">retour à index</a>
+</body>
+</html>

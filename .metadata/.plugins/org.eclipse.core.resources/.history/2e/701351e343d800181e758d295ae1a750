@@ -1,0 +1,10 @@
+//1- retrouver element à animer
+var paragraphe = document.querySelector("p");
+
+//2- on lui ajoute l'évènement click
+paragraphe.addEventListener('click',Message);
+
+//3- Créer la fonction
+function Message(){
+	alert("première animation");
+}

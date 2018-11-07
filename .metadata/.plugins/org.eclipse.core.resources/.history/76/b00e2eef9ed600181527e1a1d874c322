@@ -1,0 +1,7 @@
+/**
+ * Addition de deux nombres
+ */
+var nombre1 = prompt("Entrer le premier nombre");
+var nombre2 = prompt("Entrer le deuxième nombre");
+var resultat = nombre1 + nombre2;
+alert("Resultat ="+resultat);

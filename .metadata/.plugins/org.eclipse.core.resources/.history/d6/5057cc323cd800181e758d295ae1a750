@@ -1,0 +1,12 @@
+@charset "utf-8";
+td, th {
+	border: 1px solid black;
+}
+ 
+ table {
+ 	border-collapse: collapse;
+ }
+ 
+ thead, tfoot {
+	background-color:green;
+}

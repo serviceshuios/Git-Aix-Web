@@ -1,0 +1,8 @@
+//on crée un element de type p
+var nouveauPara = document.createElement("p");
+
+// créer un noeud de type texte
+var texte = document.createTextNode("Texte inséré");
+
+// on insère le texte dans notre paragraphe
+nouveauPara.appendChild(texte)

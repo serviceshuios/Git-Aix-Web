@@ -1,0 +1,5 @@
+@charset "utf-8";
+div {
+	background-color: #89B;
+	border-radius: 15px;
+}

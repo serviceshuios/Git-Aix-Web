@@ -1,0 +1,16 @@
+// getElementById
+//var titre = document.getElementById("gros_titre");
+//alert(titre.innerHTML);
+
+// getElementsByTagName
+//var paragraphes = document.getElementsByTagName("p");
+//for(i=0;i<paragraphes.length;i++){
+//	alert(paragraphes[i].innerHTML);
+//}
+
+//getElementsByClassName
+
+var elements = document.getElementsByClassName("maClasse");
+for(e in elements) {
+	alert(e);
+}

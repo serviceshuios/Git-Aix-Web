@@ -1,0 +1,12 @@
+/**
+ * LES FONCTIONS
+ */
+
+function affiche()
+{
+	alert("BONJOUR");
+}
+function multiplication(x,y)
+{
+	
+}
