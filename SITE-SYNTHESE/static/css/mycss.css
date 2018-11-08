@@ -1,0 +1,135 @@
+#myheader {
+    color: black;
+    /* text-align: center; */
+}
+
+
+.img-thumb {
+    width: 100px;
+    height: 100px;
+    /* text-align: center; */
+}
+
+button {
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.with-bg {
+    background-image: url("../img/jumbotron-bcgcut.bmp");
+}
+
+.center-img {
+    box-shadow: 10px 10px 5px grey;
+    /* Block : take the whole size where the element is /*
+    /* display: block; */
+    /* Inline : take only the space of the element size /*
+    /* display: inline; */
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    
+}
+
+.doted-hr{
+    border-style: dotted;
+}
+
+body {
+    background-color: lightgrey;
+}
+
+form {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: left;
+}
+/*
+hr {
+    margin: 20px;
+}
+*/
+table{
+    table-layout: fixed;
+    width:100%; 
+    text-align: center;
+}
+
+#mylink {
+    color:teal;
+    font-weight: bold;
+}
+
+#unorderedHeader{
+    color:khaki;
+    
+}
+
+.header {
+    color:deepskyblue;
+    display: inline;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 15px;
+
+
+}
+
+#td-down {
+    text-align: left;
+    width:100%; 
+    vertical-align: top;
+
+}
+
+.input-calc {
+    width:50px; 
+
+}
+
+.input-70 {
+    width:70%; 
+
+}
+
+body {
+    background: #b7c1c9;
+    font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+
+.modif{
+    background-color: yellow;
+    text-align: center;
+    text-transform: uppercase;
+    color: brown;
+}
+
+.th-colspan{
+    border: none !important;
+}
+
+td:hover { 
+    background-color: ghostwhite;
+ }
+
+
+ /* day 3 */
+
+ .d{
+    background-color: rgb(181, 170, 212);
+    border-radius: 15px;
+    border: 2px solid black; 
+ }
+.p-inline{
+    display: inline;
+}
+.p-block{
+    display:block;
+}
+.p-inline-block{
+    display:inline-block;
+    border: 1px solid black;
+    width: 30%;
+    margin-top:10px;
+}

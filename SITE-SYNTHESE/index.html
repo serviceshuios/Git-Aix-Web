@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>My webpage</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="static/css/mycss.css">
+
+    </head>
+    <body>
+        <!-- Heading -->
+        <br>
+        <div class="col-md-12">
+            <div class="jumbotron with-bg" id="">
+                <h1 class="display-4" id="myheader" style="font-weight:bold;color:aliceblue">My first webpage !!!</h1>
+                <p class="lead" style="font-weight:bold;color: aliceblue">A website with Javascrit, CSS, DOM and HTML exercises</p>
+                <hr class="my-4" style="border-width: 1px;border-color: aliceblue">
+            </div>
+        </div>
+
+        <hr class="doted-hr"/>
+        <!-- Day 1 - Javascript-->
+        <div class="col-md-12">
+        <table class="table table-light ">
+        <tr>
+            <thead>
+                    <th class="th-colspan" colspan="7" style="background-color:#007bff">Day 1 - Javascrpit</th>
+            </thead>
+            <thead class="thead-dark">
+                    <th scope="col">Color change</th>
+                    <th scope="col">Header change</th>
+                    <th scope="col">Calculator</th>
+                    <th scope="col">Interval  and Lunch time</th>
+                    <th scope="col">Loops</th>
+                    <th scope="col">Function</th>
+                    <th scope="col">Objects</th>
+            </thead>
+
+            <td class="border th-hover">
+                <h4 class="header">Click the button below to change the header color</h4> <br> <br>
+                <form action="" id="colorForm">
+                        <input type="radio" name="color" value="blue"> <label style="color:blue"> <strong>Blue</strong> </label><br>
+                        <input type="radio" name="color" value="green"> <label style="color:green"> <strong>Green</strong> </label><br>
+                        <input type="radio" name="color" value="red"> <label style="color:red"> <strong>Red</strong> </label> <br>
+                        <button class="btn btn-primary" type="button" value="" onclick="changeColor()" id="myButton"> Change color !! </button>
+                </form>
+            </td>  
+            <td class="border th-hover">
+                    <h4 class="header">Click the button below to change the header text</h4> <br> <br>
+                    <form action="" id="textForm">
+                            New header name: <input type="text" id="inputNewText" value="new text" style="width:70%"><br>
+                            <br>
+                            <button class="btn btn-primary" type="button" onclick="changeText()">Change text </button>
+                    </form>
+            </td>
+            <td class="border th-hover">
+                    <h4 class="header">Input interger numbers for arithmetic operation results</h4> <br> <br>
+                    <form action="" id="textForm">
+                            First number: <input type="number" class="input-calc" id="inputFirstNumber" value=""> <br> <br>
+                            Second number: <input type="number" class="input-calc" id="inputSecondNumber" value=""><br> <br>
+                            <button class="btn btn-primary" type="button" onclick="calc()">Calculate </button>
+                    </form>
+                    <p id="result"></p>
+
+            </td>
+            <td class="border th-hover">
+                    <h4 class="header">Check lunch/interval time</h4> <br> <br>
+                    <form action="" id="textForm">
+                            Enter a time number: <input type="number" class="input-calc" id="inputTime" value=""><br>
+                            <br>
+                            <button class="btn btn-primary" type="button" onclick="checkLunchTime()">Check time </button>
+                    </form>
+                    <p id="result2"></p>
+
+            </td>
+            <td class="border th-hover">
+                    <h4 class="header">Loop test</h4> <br> <br>
+                    <form action="" id="textForm">
+                    Enter a number: <input type="text" class="input-calc" id="inputLoopNum" value=""><br><br>
+                    <button class="btn btn-primary" type="button" onclick="testFoorLoop()">Test loop </button>
+                    </form>
+                    <p id="result4"></p>
+
+            </td>
+
+            <td class="border th-hover">
+                <h4 class="header">Factorial</h4> <br> <br>
+                <form action="" id="colorForm">
+                    Enter a number: <input type="text" class="input-calc" id="inputFactorial" value=""><br><br>
+                    <button class="btn btn-primary" type="button" value="" onclick="factorialize()">Calculate factorial</button>
+                </form>
+                <p id="result5"></p>
+
+            </td>
+            
+            <td sclass="border th-hover">
+                    <h4 class="header">Object</h4> <br> <br>
+                    <form action="" id="colorForm">
+                        Enter a name: <input type="text" class="input-70" id="inputName" value=""><br><br>
+                        Enter a surname: <input type="text" class="input-70" id="inputSurName" value=""><br><br>
+                        Enter an age: <input type="text" class="input-calc" id="inputAge" value=""><br><br>
+                        <button class="btn btn-primary" type="button" value="" 
+                            onclick="createObject()"> Create object </button>
+                    </form>
+                    <p id="result6"></p>
+    
+                </td>            
+        </tr>
+        </table>
+    </div>
+
+    <!-- Day 2 - DOM-->
+    <div class="col-md-12">
+            <table class="table table-light">
+            <tr>
+                    <thead>
+                            <th class="th-colspan" colspan="6" style="background-color: #ffc107">Day 2 - DOM & BOM</th>
+                    </thead>
+                    <thead class="thead-dark">
+                            <th scope="col">Elements by TagName</th>
+                            <th scope="col">QuerySelector</th>
+                            <th scope="col">Property 'className'</th>
+                            <th scope="col">Add a DOM element</th>
+                            <th scope="col">Remove a DOM element</th>
+                            <th scope="col">Screen resolution</th>
+                    </thead>
+                <!-- First-->
+                <td id="day2-1" class="border th-hover">
+                    <h4 class="header">Using 'getElementsByTagName()'</h4> <br> <br>
+                    <p>A paragraph content</p>
+                    <p> Another paragraph</p>
+                    <button class="btn btn-warning" type="button" onclick="getElementByTag()">Click me </button>
+                    <p id="result7"></p>
+                </td>
+                <!-- Second-->
+                <td id="day2-2" class="border th-hover">
+                    <h4 class="header">Using 'querySelector()'</h4> <br> <br>
+                    <p class="paragraphClass">A paragraph </p>
+                    <p class="paragraphClass">A paragraph with <a id="mylink" href="http://www.google.com">a link </a> </p>
+                    <button class="btn btn-warning" type="button" onclick="querySelectorFunction()">Test me </button>
+                    <p id="result8"></p>
+                </td> 
+                <!-- Tird-->
+                <td id="day2-3" class="border th-hover">
+                        <h4 class="header">Change text style via javascript</h4> <br> <br>
+                        <h4 class="textToBeChanged">Click the button below to change my style</h4>
+                        <button class="btn btn-warning" type="button" onclick="changeStyle()">Change style </button>
+                        <br>
+                </td>
+                <td id="day2-4" class="border th-hover">
+                        <h4 class="header">Add an HTML element</h4> <br> <br>
+                        <button class="btn btn-warning" type="button" onclick="addElement()">Add an element </button>
+                        <br>
+                </td>
+                <td id="day2-5" class="border th-hover">
+                        <h4 class="header">Click the button below to remove the element 'img'</h4> <br> <br>
+                        <img class="img-thumb" src="static/img/beer.bmp"> <br> <br>
+                        <button class="btn btn-warning" type="button" onclick="removeElement()">Remove the image </button>
+                        <br>
+                        <p id="result9"></p>
+                </td>  
+                <td id="day2-6" class="border th-hover">
+                        <h4 class="header">Click the button below to show the screen resolution</h4> <br> <br>
+                        <button class="btn btn-warning" type="button" onclick="showScreenResolution()">Show </button>
+                        <br>
+                        <p id="result10"></p>
+                </td>  
+            </tr>
+            </table>
+        </div>
+
+
+    <!-- Day 3 - FORMS-->
+    <div class="col-md-12">
+            <table class="table table-light">
+                <tr>
+                <thead>
+                        <th colspan="5" class="th-colspan" style="background-color: #28a745">Day 3 - Forms and Advanced</th>
+                </thead>
+                <thead class="thead-dark">
+                        <th scope="col" class="thead-dark" colspan="2">Input Elements</th>
+                        <th scope="col">Events</th>
+                        <th scope="col">Inline and block</th>
+                        <th scope="col">A new website</th>
+                </thead>
+                <!-- First-->
+                <td colspan="2" id="day3-1" class="border th-hover">
+                        <h4 class="header">Some formulary input elements</h4> <br> <br>
+                        <form method="get" action="to-back-end" id="colorForm">
+                        <!-- Left side of the form-->
+                        <span style="float:left; width: 50%">
+                                <label for="name">Your name:</label> <br><input type="text" name="name"><br>
+                                <label for="surname">Your surname:</label> <br><input type="text" name="surname"><br>
+                                <label for="age">Your age:</label> <br><input class="input-calc" type="number" name="age" required min="18"><br>
+                                <label for="mail">Email: </label> <br> <input type="email" name="mail"><br>
+                                <label for="password">Password: </label>  <br><input type="password" name="password"><br> <br>
+                                <label for="date">Date: </label> <input type="date" name="date"><br><br>
+                                <label for="date">Pick a color: </label><input type="color" name="date"><br>
+                        </span>
+                        <!--Right side of the form-->
+                        <span style="float:right; width: 50%">
+                                Sex:<br>
+                                <label for="male">Male</label> <input type="radio" name="sex" value="male"></textarea>
+                                <label for="female">Female</label> <input type="radio" name="sex"  value="female"></textarea><br>
+                                <br>What sport do you like ? <br>
+                                <input type="checkbox" name="sport" value="swiwming"> Swimming<br>
+                                <input type="checkbox" name="sport" value="boxing" checked> Boxing<br>
+                                <input type="checkbox" name="sport" value="running" checked> Running<br>
+                                <br>Where do you live ? <br>
+                                <select>
+                                        <option value="paris">Paris</option>
+                                        <option value="london">London</option>
+                                        <option value="rio">Rio</option>
+                                        <option value="madrid">Madrid</option>
+                                </select> 
+                                <br><br>
+                                <label for="comments">Comments:</label> <textarea name="comments"></textarea><br><br>
+                        </span>
+                        
+                        <button class="btn btn-success" type="button" value="" onclick=""> Send data </button>
+                        </form>
+                </td>
+                <!-- Day 3 exercise 2-->
+                <td id="day3-2" class="border th-hover">
+                        <h4 class="header" >Events</h4> <br> <br>
+                        <span><p>---=> Click me <=--- </p></span>
+                        <h5>### Hover me ###</h5>
+                        <img style="width:200px; height:200px;" src="static/img/background.bmp"/>
+
+                </td>
+                <!-- Day 3 exercise 3-->
+                <td id="day3-3" class="border th-hover">
+                <h4 class="header" >Click the button to change the <p> display from block to inline </h4> <br> <br>
+                        <div class="d" id="d1">
+                                <p> A brick </p>
+                                <p> Another brick in the wall </p>
+                        </div>
+                        <br>
+
+                        <button class="btn btn-success" type="button" value="" onclick="changeToInline()"> Change to inline </button> <br/><br/>
+                        <button class="btn btn-success" type="button" value="" onclick="changeToBlock()"> Change to block </button> <br/><br/>
+                        <button class="btn btn-success" type="button" value="" onclick="changeToInlineBlock()"> Change to inline-block </button>
+                </td>
+                <!-- Day 3 exercise 4-->
+                <td id="day3-4" class="border th-hover">
+                        <h4 class="header" >A website project :-) </h4> <br> <br>
+                        <p class="paragraphClass"><a id="mylink" href="page1.html">Go to the new web site project </a></p>
+
+                </td>
+
+                </tr>
+            </table>
+        </div>
+
+
+        
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <script src="static/js/myjs.js"></script>
+        <script src="static/js/calc.js"></script>
+        <script src="static/js/object.js"></script>
+        <script src="static/js/day2.js"></script>
+        <script src="static/js/day3.js"></script>
+
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>  
+    
+    
+    </body>
+</html>

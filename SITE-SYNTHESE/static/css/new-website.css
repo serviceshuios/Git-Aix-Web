@@ -1,0 +1,37 @@
+#header, #menu, #content, #footer {
+    padding: 1px;
+}
+
+#header {
+    background-color: cadetblue;
+    text-align: center;
+}
+
+#main {
+    max-width: 100%;
+    margin:auto;
+}
+
+#menu{
+    float:left;
+    width: 240px;
+    background-color: aliceblue;
+}
+
+#content{
+    margin-left: 245px;
+    background-color: blanchedalmond;
+}
+
+#footer{
+    background-color: blue;
+    text-align: center;
+    clear:both;
+}
+
+li {
+    list-style-type: none;
+}
+li a{
+    text-decoration: none;
+}
